@@ -9,6 +9,7 @@
 
     body{
         margin: 1px;
+        font-family: 'Inter', sans-serif;
     }
 .ste{
 background-color: rgb(8, 8, 14);
@@ -68,11 +69,17 @@ hr {
    }
 
     .we{
-        width: 25%;
+        width: 50%;
         background-color: rgb(202, 200, 200);
     border-radius: 5px;
     padding: 10px;
     border: none;
+
+    }
+
+    input[type="radio"]{
+
+        float: left;
 
     }
 
@@ -93,11 +100,13 @@ hr {
         cursor: pointer;
         padding: 2px;
         margin-bottom: 10px;
+        
     }
 
     .info{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
   textarea:focus { 
@@ -142,4 +151,4 @@ hr {
 
 
    }
-}
+} 
