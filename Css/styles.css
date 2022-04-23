@@ -59,7 +59,10 @@ hr {
     
     }
 
-   
+   form{
+     max-width: 100%;
+   }
+
    .col{
     padding: 30px;
     border: none;
@@ -129,6 +132,12 @@ hr {
 
     @media screen and (min-width: 768px){
     
+      body{
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      
         .item {
             display: flex;
             align-items: center;
@@ -144,7 +153,8 @@ hr {
           
           .we {
             max-width: 25%;
-
-
+   }
+   .res, hr{
+     max-width: 80%;
    }
 } 
